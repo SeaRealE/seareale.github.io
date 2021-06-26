@@ -20,4 +20,7 @@ customjs:
     fs.readdir(testFolder, function(error, filelist){
         console.log(filelist);
     })
+
+    var fs = require('fs');
+    fs.readdir('./', (err, file_list) => { console.log(file_list) });
 </script>

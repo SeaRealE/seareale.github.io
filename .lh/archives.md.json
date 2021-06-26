@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 12,
+            "activePatchIndex": 13,
             "patches": [
                 {
                     "date": 1624701948765,
@@ -56,6 +56,10 @@
                 {
                     "date": 1624702410941,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n <script>\r\n     var fs = require('fs');\r\n     var testFolder = './_posts';\r\n \r\n-    var files = fs.readdirSync('./_posts/');\r\n+    //var files = fs.readdirSync('./_posts/');\r\n \r\n     fs.readdir(testFolder, function(error, filelist){\r\n         console.log(filelist);\r\n     })\r\n"
+                },
+                {
+                    "date": 1624702789562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,5 +19,8 @@\n \r\n     fs.readdir(testFolder, function(error, filelist){\r\n         console.log(filelist);\r\n     })\r\n+\r\n+    var fs = require('fs');\r\n+    fs.readdir('./', (err, file_list) => { console.log(file_list) });\r\n </script>\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1624701948765,
