@@ -1,0 +1,22 @@
+{
+    "sourceFile": "assets/scss/_config.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1624702511100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1624702614598,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,13 @@\n $grey:   #aaa;\r\n $black:  #111;\r\n \r\n // Color variables\r\n-$primary-color: seagreen;\r\n-$secondary-color: #233E5B;\r\n+// $primary-color: seagreen;\r\n+// $secondary-color: #233E5B;\r\n+// $tertiary-color: #aaa;\r\n+$primary-color: rgb(212, 144, 41);\r\n+$secondary-color: #216fd4;\r\n $tertiary-color: #aaa;\r\n $link-color: $primary-color;\r\n $background-color: $primary-color;\r\n \r\n"
+                }
+            ],
+            "date": 1624702511100,
+            "name": "Commit-0",
+            "content": "/***************\r\nCOLOR VARIABLES\r\n***************/\r\n\r\n// Better default colors\r\n// Cool\r\n$aqua:  #7FDBFF;\r\n$blue:  #0074D9;\r\n$navy:  #001F3F;\r\n$teal:  #39CCCC;\r\n$green: #2ECC40;\r\n$olive: #3D9970;\r\n$lime:  #01FF70;\r\n// Warm\r\n$yellow:  #FFDC00;\r\n$orange:  #FF851B;\r\n$red:     #FF4136;\r\n$fuchsia: #F012BE;\r\n$purple:  #B10DC9;\r\n$maroon:  #85144B;\r\n// Gray Scale\r\n$white:  #fff;\r\n$silver: #ddd;\r\n$grey:   #aaa;\r\n$black:  #111;\r\n\r\n// Color variables\r\n$primary-color: seagreen;\r\n$secondary-color: #233E5B;\r\n$tertiary-color: #aaa;\r\n$link-color: $primary-color;\r\n$background-color: $primary-color;\r\n\r\n$bad-color: $red; // Bad color for errors, validation etc.\r\n$good-color: $green; // Good color for success etc.\r\n$info-color: $blue; // Good color for success etc.\r\n$warning-color: $orange; // Good color for success etc.\r\n$subtle-color: $grey; // Subtle color for subtle text\r\n\r\n\r\n/***************\r\nCONSISTENT SETTINGS\r\n***************/\r\n\r\n$br: 5px; // Border-radius\r\n$btn-br: 5px; // Button border-radius\r\n$padding: 40px; // Padding and margins\r\n$line-height: 44px; // Consistent height for buttons, inputs etc.\r\n\r\n\r\n/***************\r\nTYPE SETTINGS\r\n***************/\r\n\r\n$sans-serif: \"Open Sans\", Helvetica, Arial, sans-serif;\r\n$serif: \"PT Serif\", Georgia, Times, serif;\r\n"
+        }
+    ]
+}
